@@ -1,0 +1,25 @@
+{
+  "name": "fairprice-telegrambot",
+  "version": "0.0.1",
+  "description": "Returns a list of item price based on your query. Getting the data from fairprice.com.sg.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "telegraf": "^3.25.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/fairprice-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
